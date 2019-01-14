@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shubham.myapplication">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".YashActivity"/>
+        <activity android:name=".FirstYearActivity"/>
+        <activity android:name=".TheorySubjectsActivity"/>
+        <activity android:name=".Phy"/>
+        <activity android:name=".chem"/>
+        <activity android:name=".computer"/>
+        <activity android:name=".mecha"/>
+        <activity android:name=".applied"/>
+        <activity android:name=".electrical"/>
+        <activity android:name=".electronics"/>
+        <activity android:name=".english"/>
+        <activity android:name=".SyllabusActivity"/>
+        <activity android:name=".PhysicsMidTerms"/>
+        <activity android:name=".PhysicsFirstMid"/>
+        <activity android:name=".PhysicsSecondMid"/>
+        <activity android:name=".LecturesActivity1"/>
+        <activity android:name=".NotesActivity"/>
+        <activity android:name=".InterferenceActivity"/>
+        <activity android:name=".DiffractionActivity"/>
+        <activity android:name=".PolarisationActivity"/>
+        <activity android:name=".RelativisticPhysicsActivity"/>
+        <activity android:name=".SolidStatePhysicsActivity"/>
+        <activity android:name=".ModuleIIActivity"/>
+        <activity android:name=".ModuleIIIActivity"/>
+        <activity android:name=".SyllabusActivityChem"/>
+        <activity android:name=".NotesChemActivity"/>
+        <activity android:name=".Maths"/>
+        <activity android:name=".CHEMICALKINETICSPART1Activity"/>
+        <activity android:name=".CHEMICALKINETICSPART2Activity"/>
+        <activity android:name=".MODULEIActivity"/>
+        <activity android:name=".WATERTREATMENTActivity"/>
+        <activity android:name=".POLYMERIZATIONActivity"/>
+        <activity android:name=".ChemMidTerms"/>
+        <activity android:name=".ChemFirstMid"/>
+        <activity android:name=".ChemSecondMid"/>
+        <activity android:name=".ChemThirdMid"/>
+        <activity android:name=".SyllabusActivityComp"/>
+        <activity android:name=".CompMidTerms"/>
+        <activity android:name=".CompFirstMid"/>
+        <activity android:name=".CompSecondMid"/>
+        <activity android:name=".CompThirdMid"/>
+        <activity android:name=".SyllabusActivityMech"/>
+        <activity android:name=".NotesMechActivity"/>
+        <activity android:name=".MechMODULEIActivity"/>
+        <activity android:name=".MechMODULEIIActivity"/>
+        <activity android:name=".MechMODULEIIIActivity"/>
+        <activity android:name=".MechMidTerms"/>
+        <activity android:name=".MechFirstMid"/>
+        <activity android:name=".MechSecondMid"/>
+        <activity android:name=".MechThirdMid"/>
+        <activity android:name=".SyllabusActivityApplied"/>
+        <activity android:name=".NotesAppliedActivity"/>
+        <activity android:name=".AppliedMODULEIActivity"/>
+        <activity android:name=".AppliedMODULEIIActivity"/>
+        <activity android:name=".AppliedMODULEIIIActivity"/>
+        <activity android:name=".AppliedFirstMid"/>
+        <activity android:name=".AppliedSecondMid"/>
+        <activity android:name=".AppliedThirdMid"/>
+        <activity android:name=".AppliedMidTerms"/>
+        <activity android:name=".SyllabusActivityElectrical"/>
+        <activity android:name=".ElectricalMODULEIActivity"/>
+        <activity android:name=".ElectricalMODULEIIActivity"/>
+        <activity android:name=".ElectricalMODULEIIIActivity"/>
+        <activity android:name=".NotesElectricalActivity"/>
+        <activity android:name=".ElectricalMidTerms"/>
+        <activity android:name=".ElectricalFirstMid"/>
+        <activity android:name=".ElectricalSecondMid"/>
+        <activity android:name=".ElectricalThirdMid"/>
+        <activity android:name=".SyllabusActivityElectronics"/>
+        <activity android:name=".ElectronicsMODULEIActivity"/>
+        <activity android:name=".ElectronicsMODULEIIActivity"/>
+        <activity android:name=".ElectronicsMODULEIIIActivity"/>
+        <activity android:name=".NotesElectronicsActivity"/>
+        <activity android:name=".ElectronicsMidTerms"/>
+        <activity android:name=".ElectronicsFirstMid"/>
+        <activity android:name=".ElectronicsSecondMid"/>
+        <activity android:name=".ElectronicsThirdMid"/>
+        <activity android:name=".PracticalSubjectsActivity"/>
+        <activity android:name=".Workshop"/>
+        <activity android:name=".PhyLab"/>
+        <activity android:name=".ChemLab"/>
+        <activity android:name=".MechaLab"/>
+        <activity android:name=".ElecLab"/>
+        <activity android:name=".VideoLabs"/>
+        <activity android:name=".ExperimentsActivity"/>
+        <activity android:name=".LabManual"/>
+        <activity android:name=".ExperimentsActivityChem"/>
+        <activity android:name=".LabManualChem"/>
+        <activity android:name=".VideoLabsChem"/>
+        <activity android:name=".LabManualElectrical"/>
+        <activity android:name=".ExperimentsActivityElectrical"/>
+        <activity android:name=".ExperimentsActivityMecha"/>
+        <activity android:name=".LabManualMecha"/>
+        <activity android:name=".VideoLabsMecha"/>
+        <activity android:name=".WebViewActivity"/>
+        <activity android:name=".PreviousPaper"/>
+        <activity android:name=".Quiz"/>
+        <activity android:name=".FirstYearPaper"/>
+        <activity android:name=".FirstYearFirstSemester"/>
+        <activity android:name=".FirstYearSecondSemester"/>
+        <activity android:name=".FirstYear3"/>
+        <activity android:name=".FirstYear4"/>
+        <activity android:name=".FirstYear5"/>
+        <activity android:name=".FirstYear6"/>
+        <activity android:name=".ComputerPaper"/>
+        <activity android:name=".ElectronicPaper"/>
+        <activity android:name=".MechanicalPaper"/>
+        <activity android:name=".ElectricalPaper"/>
+        <activity android:name=".CivilPaper"/>
+        <activity android:name=".Computer3"/>
+        <activity android:name=".Computer4"/>
+        <activity android:name=".Computer5"/>
+        <activity android:name=".Computer6"/>
+        <activity android:name=".ComputerFirstSemester"/>
+        <activity android:name=".ComputerSecondSemester"/>
+        <activity android:name=".Mechanical3"/>
+        <activity android:name=".Mechanical4"/>
+        <activity android:name=".Mechanical5"/>
+        <activity android:name=".Mechanical6"/>
+        <activity android:name=".MechanicalFirstSemester"/>
+        <activity android:name=".MechanicalSecondSemester"/>
+        <activity android:name=".ElectronicFirstSemester"/>
+        <activity android:name=".Electronic3"/>
+        <activity android:name=".Electronic4"/>
+        <activity android:name=".ElectronicSecondSemester"/>
+        <activity android:name=".Electronic6"/>
+        <activity android:name=".Electronic5"/>
+        <activity android:name=".ElectricalFirstSemester"/>
+        <activity android:name=".ElectricalSecondSemester"/>
+        <activity android:name=".Electrical4"/>
+        <activity android:name=".Electrical5"/>
+        <activity android:name=".Electrical6"/>
+        <activity android:name=".Electrical3"/>
+        <activity android:name=".CivilFirstSemester"/>
+        <activity android:name=".CivilSecondSemester"/>
+        <activity android:name=".Civil3"/>
+        <activity android:name=".Civil4"/>
+        <activity android:name=".Civil5"/>
+        <activity android:name=".Civil6"/>
+        <activity android:name=".QuizSubjectsActivity"/>
+        <activity android:name=".CStartingScreenActivity"/>
+        <activity android:name=".JavaStartingScreenActivity"/>
+        <activity android:name=".PythonStartingScreenActivity"/>
+        <activity android:name=".PythonQuizActivity"/>
+        <activity android:name=".JavaQuizActivity"/>
+        <activity android:name=".CQuizActivity"/>
+        <activity android:name=".NotesCompActivity"/>
+
+
+
+
+
+    </application>
+
+</manifest>

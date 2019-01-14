@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "303054785971",
+    "firebase_url": "https://fresherslearningzone.firebaseio.com",
+    "project_id": "fresherslearningzone",
+    "storage_bucket": "fresherslearningzone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303054785971:android:e02fb87e3ad58572",
+        "android_client_info": {
+          "package_name": "com.example.shubham.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303054785971-jj8lu1g051mv30vb0psi9f8u5rliip9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubham.myapplication",
+            "certificate_hash": "467688a35bc3ed45cf2aaee29b52776b80fb4adf"
+          }
+        },
+        {
+          "client_id": "303054785971-auna2oot39cgg1fha951qj2v8ee64itn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPt4FKUivNpD2SFq-LoI6_ZG4jQbKyNuY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303054785971-auna2oot39cgg1fha951qj2v8ee64itn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

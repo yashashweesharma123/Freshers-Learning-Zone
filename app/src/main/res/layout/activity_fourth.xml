@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/Water"
+    >
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:title="FreshersLearningZone"
+        app:navigationIcon="@drawable/ic_menu_black_24dp"
+        app:title="FreshersLearningZone"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingLeft="45dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/y"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="1dp" />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="70dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ya"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="1dp" />
+
+            </LinearLayout>
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="70dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical">
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/yash"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="1dp" />
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/thirdyear"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="20dp"
+                    android:text="THIRD YEAR"/>
+                </LinearLayout>-->
+            </LinearLayout>
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="70dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical">
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/four"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="1dp" />
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fourthyear"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="20dp"
+                    android:text="FOURTH YEAR"/>-->
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
